@@ -1,0 +1,44 @@
+* {
+	margin: 0px;
+}
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, p {
+	margin: 10px;
+}
+div.container {
+	background: #DDD;
+	margin: 0 auto;
+	padding: 25px;
+	min-height: 600px;
+}
+div.box {
+	border: 2px solid black;
+	width: 300px;
+	height: 250px;
+	color: white;
+	margin: 20px auto;
+}
+div.box h1 {
+	font-size: 2em;
+	margin-top: 30px;
+	padding: 10px 50px;
+}
+.success {
+	background: #32CD32;
+}
+.high {
+	background: #DC143C;
+}
+.low {
+	background: #00BFFF;
+}
+input {
+	padding: 5px;
+}
+button {
+	cursor: pointer;
+	padding: 3px;
+}
